@@ -1,4 +1,5 @@
 .navbarMain {
     height: 80px;
     border: 2px solid red;
+    margin:0 auto;
 }
