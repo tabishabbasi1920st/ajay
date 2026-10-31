@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import SectionSpacer from "./components/SectionSpacer";
 
 
 export default function App() {
@@ -8,6 +9,8 @@ export default function App() {
       <header>
         <Navbar />
       </header>
+
+      <SectionSpacer />
 
       <main>
         <h1>Home</h1>

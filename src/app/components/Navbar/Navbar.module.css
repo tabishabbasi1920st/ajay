@@ -1,5 +1,19 @@
 .navbarMain {
     height: 80px;
     border: 2px solid red;
-    margin:0 auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px
+}
+
+.navbarLeftContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navbarRightContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px
 }
